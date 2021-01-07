@@ -5,7 +5,6 @@ let marsDistance = 225000000;
 let moonDistance = 384400;
 let milesPerKm = 0.621;
 
-
 // 2. Use console.log to print the 'typeof' each variable. Print one item per line.
 console.log(typeof 'shuttleName');
 console.log(typeof shuttleSpeed);
@@ -18,12 +17,6 @@ let hours = (milesToMars / shuttleSpeed);
 let daysToMars = (hours / 24);
 
 console.log(`${shuttleName} will take ${daysToMars} days to reach Mars.`);
-
-
-
-
-
-
 
 // Code your solution to exercise 5 here:
 let milesToMoon = (moonDistance * milesPerKm);
